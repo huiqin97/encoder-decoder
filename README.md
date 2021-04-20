@@ -1,1 +1,5 @@
-# Intelligent-Categorization
+# Encoder-decoder model
+
+This project is to change the unormalised sentences to normalised sentences
+
+The encoder-decoder architecture in Sequence2Sequence model helps to encode and decode the input sentence, word by word, as well as predict the next possible output. In the model, the encoder and decoder used are LSTM (Long-Short Term Memory) and GRU. LSTM networks are a modified version of recurrent neural network (RNN) capable in learning order dependence in sequence prediction problems. LSTM is preferred as it is better at memorizing the overall data and it avoids the vanishing gradient problems that happen frequently during the implementation of RNN. In RNN, vanishing gradient problems happen when the network model is dealing with a long data sequence. A large input space is being squished into a small input space between 0 and 1which causes a small change of the gradient in the output. However, LSTM has overcame this problem and thus being chosen for better performance of the program. The reasons for choosing GRU (Gated Recurrent Unit) is used in char-token model
